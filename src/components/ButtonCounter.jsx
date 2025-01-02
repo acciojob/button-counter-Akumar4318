@@ -8,7 +8,7 @@ const[count,setCount]=useState(0)
   return (
     <div>
 
-<h2> Button clicked {count} time</h2>
+<p> Button clicked {count} time</h2>
         <button  onClick={()=>{
          
           setCount(count+1)
